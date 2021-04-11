@@ -11,7 +11,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Recommendproductkotlin">
+        android:theme="@style/Theme.Recommendproductkotlin"
+        android:name=".ApplicationClass">
         <service
             android:name=".service.MusicService"
             android:enabled="true"

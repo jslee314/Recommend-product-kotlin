@@ -2,13 +2,13 @@ package com.jslee.recommend_product_kotlin
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.util.TypedValue
 import android.view.Menu
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
-import androidx.navigation.fragment.findNavController
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -19,6 +19,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 //        navController = nav_host_fragment.findNavController()
+
+
+        val app = application as ApplicationClass
+        main_textView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, app.getConvertDpByRes(24.0f))
+
 
     }
 
