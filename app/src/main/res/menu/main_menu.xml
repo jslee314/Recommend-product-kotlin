@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/setting_item"
+        android:title="설정" />
+    <item
+        android:title="추니는 누구일까" >
+        <menu >
+            <item
+                android:id="@+id/geo_item"
+                android:title="추니네 집 지도" />
+            <item
+                android:id="@+id/https_item"
+                android:title="추니 블로그 가기" />
+            <item
+                android:id="@+id/tel_item"
+                android:title="추니에게 전화" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:title="메뉴 항목3" />
+
+</menu>
