@@ -9,6 +9,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
+import com.jslee.recommend_product_kotlin.Settings.MusicServicdActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -40,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         when(item.itemId){
             R.id.setting_item -> {
 
-                val setting_Intent = Intent(this, SettingActivity::class.java)
+                val setting_Intent = Intent(this, MusicServicdActivity::class.java)
                 // startActivity(second_intent)
                 startActivityForResult(setting_Intent, SETTING_ACTIVITY)
             }
