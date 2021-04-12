@@ -1,5 +1,3 @@
-# Recommend-product-kotlin
-
 **kotlin 기반 android App 개발에 필요한 "다양한 UI 위젯/android 기본 컴포넌트/서비스" 등을 연습하기 위한프로젝트
 
 
