@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SettingActivity">
+    tools:context=".Settings.MusicServicdActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="99dp" />
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/start_music_btn"
@@ -27,7 +27,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="93dp" />
+        android:layout_height="39dp" />
 
     <Button
         android:id="@+id/take_time_btn"
@@ -41,5 +41,17 @@
         android:layout_height="54dp"
         android:text="서비스가 시작한지 얼마나 지났을까?"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/music_lrics_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="raw 파일로 저장 된 가사 보기" />
+
+    <TextView
+        android:id="@+id/music_lrics_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 
 </LinearLayout>
