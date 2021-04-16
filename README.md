@@ -22,4 +22,10 @@
 ## 3. android 활용
 - raw data / SQLite /
 - android 센서
-- Network
+
+## 4. android 통신
+- Open API 
+- retfofit2, Okhttp
+
+## 5. 외부 라이브러리 사용
+- YouTube Android Player API
