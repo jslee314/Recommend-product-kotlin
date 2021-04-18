@@ -4,10 +4,8 @@
 # 사용 기술
 
 ## 1. android app UI
-- Layout
-- Widget
-- AdapterView
-- Customview
+- Layout/Widget : TextEditor, Button, Bar
+- AdapterView : CustomListView, Spinner, ViewPager, RecyclerView
 - ActionBar
 
 
